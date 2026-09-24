@@ -12,7 +12,7 @@
 # equivalent limit and Codespaces authenticates to it automatically.
 #
 # AFTER THE FIRST SUCCESSFUL RUN the package is PRIVATE. Go to the org page →
-# Packages → ulht-db26-class → Package settings → Change visibility → Public.
+# Packages → ulht-db26-exam → Package settings → Change visibility → Public.
 # Student codespaces cannot pull a private package, and the failure is an
 # opaque "manifest unknown" at container create.
 # ---------------------------------------------------------------------------
@@ -32,7 +32,7 @@ env:
   # lower-cased, because GHCR rejects any uppercase character in a path
   # GitHub usernames preserve case, org names here do not, so this makes the
   # workflow work from either.
-  IMAGE_BASENAME: ulht-db26-class
+  IMAGE_BASENAME: ulht-db26-exam
   VERSION: '1.2.0'
 
 jobs:

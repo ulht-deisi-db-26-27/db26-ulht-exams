@@ -30,7 +30,7 @@ services:
     # already is, which is one reason to host here rather than under a
     # personal account whose name contains capitals.
     # Must match IMAGE_BASENAME + VERSION in .github/workflows/build-image.yml.
-    image: "${MSSQL_IMAGE:-ghcr.io/ulht-deisi-db-26-27/ulht-db26-class:1.2.0}"
+    image: "${MSSQL_IMAGE:-ghcr.io/ulht-deisi-db-26-27/ulht-db26-exam:1.2.0}"
 
     # Fallback for local testing before the image is published. Uncomment to
     # build from ../image instead of pulling.
