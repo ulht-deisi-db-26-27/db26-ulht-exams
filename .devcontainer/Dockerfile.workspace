@@ -8,3 +8,5 @@ COPY policy.json /etc/vscode/policy.json
 
 RUN chown root:root /etc/vscode/policy.json \
     && chmod 644 /etc/vscode/policy.json
+
+USER vscode

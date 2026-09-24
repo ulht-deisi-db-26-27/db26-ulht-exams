@@ -5,6 +5,7 @@
 services:
   workspace:
     # image: mcr.microsoft.com/devcontainers/base:ubuntu-22.04
+    image: ulht-db-exam:local
     build:
       context: .
       dockerfile: Dockerfile.workspace
