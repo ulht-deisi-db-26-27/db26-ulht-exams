@@ -44,7 +44,14 @@
             "trustServerCertificate": true,
             "profileName": "ULHT_DB26 (HR + Scott)"
           }
-        ]
+        ],
+        "github.copilot.enable": {
+          "*": false,
+          "plaintext": false,
+          "markdown": false
+      },
+      "github.copilot.nextEditSuggestions.enabled": false,
+      "chat.disableAIFeatures": true
       }
     }
   },
