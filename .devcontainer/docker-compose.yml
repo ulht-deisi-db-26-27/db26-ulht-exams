@@ -14,7 +14,7 @@ services:
     command: sleep infinity
     environment:
       # Single source of truth for the password, shared with the db service.
-      MSSQL_SA_PASSWORD: "${MSSQL_SA_PASSWORD:-Ulht#db26!TP02}"
+      MSSQL_SA_PASSWORD: "${MSSQL_SA_PASSWORD:-Ulht#db26!TP03}"
       MSSQL_HOST: db
     depends_on:
       db:
@@ -42,7 +42,7 @@ services:
     environment:
       ACCEPT_EULA: "Y"
       MSSQL_PID: "Developer"
-      MSSQL_SA_PASSWORD: "${MSSQL_SA_PASSWORD:-Ulht#db26!TP02}"
+      MSSQL_SA_PASSWORD: "${MSSQL_SA_PASSWORD:-Ulht#db26!TP03}"
 
       # ------------------------------------------------------------------
       # COLLATION — read this before first launch.

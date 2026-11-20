@@ -62,7 +62,7 @@ When using GitHub Classroom, you can also use the **Submit** button to push your
 | Field | Value |
 |---|---|
 | Login | `sa` |
-| Default Password | Ulht#db26!TP02 |
+| Default Password | Ulht#db26!TP03 |
 
 > **Note:** The default password can be changed after the initial setup, from within the SQL Server management tools.
 
